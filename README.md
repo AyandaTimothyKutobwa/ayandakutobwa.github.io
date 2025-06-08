@@ -16,4 +16,4 @@ Visit my portfolio here: (https://ayandatimothykutobwa.github.io/ayandakutobwa.g
 ##  Contact Me
 - Email: akutobwa@gmail.com
 - LinkedIn: [linkedin.com/in/ayandakutobwa](https://linkedin.com/in/ayanda-timothy-kutobwa-4640141a3)
-- Phone: +1(347)650-1653
+- Phone: +1(347)650-1653 
