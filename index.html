@@ -2,117 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ayanda Kutobwa | Cybersecurity Portfolio</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: #e2e8f0;
+      padding: 0;
       line-height: 1.6;
     }
-    header, section, footer {
-      padding: 2rem;
-      max-width: 900px;
+    header {
+      background: #0a0a23;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
       margin: auto;
     }
-    header {
-      text-align: center;
-      padding-top: 4rem;
-    }
-    h1 {
-      color: #38bdf8;
-    }
     h2 {
-      border-bottom: 2px solid #38bdf8;
-      padding-bottom: 0.3rem;
-      margin-top: 2rem;
-    }
-    a {
-      color: #38bdf8;
-      text-decoration: none;
+      color: #0a0a23;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
     }
     .project {
-      margin-bottom: 1.5rem;
+      margin-bottom: 25px;
     }
-    footer {
+    .project strong {
+      font-size: 1.1rem;
+      color: #2b3a67;
+    }
+    .contact {
+      background: #eee;
+      padding: 30px 20px;
       text-align: center;
-      font-size: 0.9rem;
-      border-top: 1px solid #334155;
-      padding-top: 1rem;
-      color: #94a3b8;
+    }
+    .contact a {
+      color: #0a0a23;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Ayanda Kutobwa</h1>
-    <p>Cybersecurity Analyst in Training | Passionate about protecting digital infrastructure</p>
+    <p>Graduate Cybersecurity Student | Network & Systems Security | Incident Response | SIEM Development</p>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      I'm a graduate student in Cybersecurity at Pace University, New York, with a background in
-      Telecommunications Engineering and real-world IT technician experience. My focus areas include
-      network security, incident response, vulnerability management, and threat intelligence.
+      I’m a Master’s student in Cybersecurity at Pace University, with a background in Telecommunications Engineering and 
+      over two years of experience as an IT Technician. My core interests are SIEM systems, network defense, vulnerability 
+      management, and secure system design. This portfolio showcases my hands-on academic and independent work.
     </p>
   </section>
 
   <section>
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>Network Security (Firewalls, VLANs, VPNs)</li>
-      <li>Vulnerability Management (Nessus, OpenVAS)</li>
-      <li>SIEM & Incident Response (Wazuh, Suricata, Splunk)</li>
-      <li>Linux & Windows Administration</li>
-      <li>Packet Analysis (Wireshark, Nmap)</li>
-      <li>Python, R, Bash</li>
-      <li>Data Analysis (Pandas, Matplotlib)</li>
-    </ul>
-  </section>
-
-  <section>
     <h2>Projects</h2>
+
     <div class="project">
-      <strong>SentraLyz SIEM Tool</strong>
-      <p>Developing a home-lab SIEM tool with log ingestion, enrichment, alerting, and visualization capabilities.</p>
+      <strong>🔐 SentraLyz SIEM Tool</strong>
+      <p>
+        Designing a custom Security Information and Event Management (SIEM) platform with real-time log ingestion,
+        enrichment, correlation, alerting, and long-term storage using a modular architecture. Built using Python, 
+        SQLite, and JSON for lab simulation.
+      </p>
     </div>
+
     <div class="project">
-      <strong>Cyber Threat Analysis (R)</strong>
-      <p>Used anomaly detection on synthetic datasets to identify suspicious patterns in network traffic.</p>
+      <strong>📊 Cyber Threat Analysis (R)</strong>
+      <p>
+        Built an anomaly detection pipeline in R to identify cyber threats from synthetic log data.
+        Used statistical techniques and visualized suspicious behavior using ggplot2 and dplyr.
+      </p>
     </div>
+
     <div class="project">
-      <strong>OCS Secure E-Commerce</strong>
-      <p>Created a PHP & MySQL platform with strong access controls and OWASP-aligned protections.</p>
+      <strong>📨 SMS Spam Detection (R)</strong>
+      <p>
+        Developed a Naive Bayes classifier to detect spam SMS messages with 98% accuracy.
+        Applied text mining, feature engineering, and confusion matrix evaluation.
+      </p>
     </div>
+
     <div class="project">
-      <strong>Hacker News Scraper</strong>
-      <p>Python script to extract and analyze tech news trends from Hacker News using BeautifulSoup & Pandas.</p>
+      <strong>🌐 Hacker News Scraper (Python)</strong>
+      <p>
+        Created a Python script using BeautifulSoup and Requests to scrape Hacker News.
+        Extracted top stories, analyzed engagement trends using Pandas & Matplotlib.
+      </p>
+    </div>
+
+    <div class="project">
+      <strong>🛒 OCS Secure E-Commerce Platform (PHP & MySQL)</strong>
+      <p>
+        Built a secure online store using HTML, CSS, PHP, and MySQL with login authentication, 
+        SQL injection prevention, and password hashing, aligned with OWASP best practices.
+      </p>
     </div>
   </section>
 
-  <section>
-    <h2>Education & Certifications</h2>
-    <ul>
-      <li>MS in Cybersecurity – Pace University (2027)</li>
-      <li>BSc Telecommunications Engineering – Zimbabwe</li>
-      <li>Diploma in Telecommunications Engineering – TelOne Training Centre</li>
-      <li>CompTIA Security+ (in progress)</li>
-    </ul>
-  </section>
-
-  <section>
+  <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:akutobwa@gmail.com">akutobwa@gmail.com</a></p>
-    <p>Phone: +1 (347) 650-1653</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ayandakutobwa" target="_blank">linkedin.com/in/ayandakutobwa</a></p>
-    <p>Location: Jersey City, NJ, USA</p>
+    <a href="mailto:akutobwa@gmail.com">akutobwa@gmail.com</a>
+    <a href="https://www.linkedin.com/in/ayandakutobwa" target="_blank">LinkedIn: ayandakutobwa</a>
+    <a href="https://github.com/ayandakutobwa" target="_blank">GitHub: github.com/ayandakutobwa</a>
   </section>
 
-  <footer>
-    &copy; 2025 Ayanda Kutobwa | Built with HTML & GitHub Pages
-  </footer>
 </body>
 </html>
