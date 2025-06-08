@@ -8,7 +8,7 @@ I’m a graduate student in Cybersecurity at Pace University with a background i
 ##  Live Site
 Visit my portfolio here: [https://ayandakutobwa.github.io](https://ayandakutobwa.github.io)
 
-## 🛠️ Featured Projects
+##  Featured Projects
 - **SentraLyz SIEM Tool** – Real-time log analysis and alerting engine (in development)-in progress
 - **Cyber Threat Detection (R)** – Anomaly detection on synthetic logs
 - **Secure E-Commerce Platform** – PHP & MySQL site with authentication and OWASP protections
